@@ -26,7 +26,7 @@ fnc_debug = {
             _pic = (gettext (configFile >> 'CfgVehicles' >> (typeof vehicle player) >> 'picture'));
         };
         hintSilent parseText format ["
-        <t color='#ff5200' size='1.30' font='Bitstream' align='center'>TechGaming</t><br/>
+        <t color='#ff5200' size='1.30' font='Bitstream' align='center'>yourservername</t><br/>
         <t color='#ffffff' size='1.15' font='Bitstream' align='center'>%1</t><br/><br/>
         <t color='#ffffff' size='1' font='Bitstream' align='left'>Zombies Killed: </t><t color='#ff5200' size='1' font='Bitstream' align='right'>%2</t><br/>
         <t color='#ffffff' size='1' font='Bitstream' align='left'>Headshots:</t><t color='#ff5200' size='1'font='Bitstream'align='right'>%3</t><br/>
@@ -36,7 +36,7 @@ fnc_debug = {
         <t color='#ffffff' size='1' font='Bitstream' align='left'>Humanity: </t><t color='#ff5200' size='1' font='Bitstream' align='right'>%7</t><br/><br/>
         <t color='#ffffff' size='1' font='Bitstream' align='left'>FPS: </t><t color='#ff5200' size='1' font='Bitstream' align='right'>%8</t><br/>
         <img size='4' image='%9'/><br/>
-        <t size='0.8' font='Bitstream' align='center'></t>",
+        <t size='0.8' font='Bitstream' align='center'>yourserverwebsite</t>",
         (name player),
         (player getVariable['zombieKills', 0]),
         (player getVariable['headShots', 0]),
