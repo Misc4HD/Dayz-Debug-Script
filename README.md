@@ -34,3 +34,5 @@ I whille try to add new debug scrpits as soon as i find/create new whannes.
 8.Edit the name of the server "yourservername" and "yourserverwebsite"
  
 
+
+<b>All scripts are runned on thise Dayz Epoch Server: 195.154.178.70:2332</b>
