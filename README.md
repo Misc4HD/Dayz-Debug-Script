@@ -23,5 +23,5 @@ I whille try to add new debug scrpits as soon as i find/create new whannes.
 
     [] ExecVM "Scripts\custom_monitor.sqf";
     
-8.Edit the name of the server "yourservername"
+8.Edit the name of the server "yourservername" and "yourserverwebsite"
  
