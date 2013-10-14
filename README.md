@@ -32,7 +32,21 @@ I whille try to add new debug scrpits as soon as i find/create new whannes.
     [] ExecVM "Scripts\custom_monitor.sqf";
     
 8.Edit the name of the server "yourservername" and "yourserverwebsite"
+
+9.If your using epoch you my need to remove:
+    dayz_spaceInterrupt = {
+     private ["_dikCode", "_handled"];
+     _dikCode = _this select 1;
+     _handled = false;
  
+     if (_dikCode == 0x44) then {
+         if (debugMonitor) then {
+             debugMonitor = false;
+             hintSilent "";
+         } else {[] spawn fnc_debug;};
+     };
+     _handled
+     };
 
 
 <b>All scripts are runned on thise Dayz Epoch Server: 195.154.178.70:2332</b>
