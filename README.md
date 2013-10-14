@@ -34,6 +34,7 @@ I whille try to add new debug scrpits as soon as i find/create new whannes.
 8.Edit the name of the server "yourservername" and "yourserverwebsite"
 
 9.If your using epoch you my need to remove:
+
     dayz_spaceInterrupt = {
      private ["_dikCode", "_handled"];
      _dikCode = _this select 1;
@@ -46,7 +47,7 @@ I whille try to add new debug scrpits as soon as i find/create new whannes.
          } else {[] spawn fnc_debug;};
      };
      _handled
-     };
+   };
 
 
 <b>All scripts are runned on thise Dayz Epoch Server: 195.154.178.70:2332</b>
