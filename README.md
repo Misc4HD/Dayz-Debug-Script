@@ -49,5 +49,6 @@ I whille try to add new debug scrpits as soon as i find/create new whannes.
      _handled
      };
 
+Because you myby cant build white this in 
 
 <b>All scripts are runned on thise Dayz Epoch Server: 195.154.178.70:2332</b>
